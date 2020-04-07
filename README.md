@@ -1,4 +1,4 @@
-# NSF-Panel-Assignment-GUI
+# NSF-Panel-Assignment
 A Graphic User Interface is built for NSF Panel assignment problem .
 A GUI is developed to efficiently analyze the inputs, solve the problem and also provide a detailed analysis of the solution without requiring any in-depth knowledge of the solution procedure or optimization solvers.
 
@@ -14,7 +14,9 @@ A GUI is developed to efficiently analyze the inputs, solve the problem and also
 - each reviewer must be assigned to approximately the same number of proposals,
 - each proposal must be reviewed the same number of times,
 - reviewers that have a "conflict of interest" (COI) with a proposal must not be assigned to that proposal, and
-- each proposal has three or four distinct positions (LEAD, SCRIBE, REV1, REV2) and each position must be filled exactly once for each proposal and each reviewer must be assigned to each position approximately the same number of times. In addition, the assignment of reviewers to positions should follow the preferences of each reviewer for a proposal so that the preference of the reviewer assigned to the LEAD position for a proposal is less than the preference of the reviewer assigned to the SCRIBE position. Similarly, the preference of the reviewer assigned to the SCRIBE position for a proposal is less than the preference of the reviewer assigned to the REV1 position and the preference of the reviewer assigned to the REV1 position for a proposal is less than the preference of the reviewer assigned to the REV2 position.
+- each proposal has three or four distinct positions (LEAD, SCRIBE, REV1, REV2) and each position must be filled exactly once for each proposal and each reviewer must be assigned to each position approximately the same number of times. 
+- In addition, the assignment of reviewers to positions should follow the preferences of each reviewer for a proposal so that the preference of the reviewer assigned to the LEAD position for a proposal is less than the preference of the reviewer assigned to the SCRIBE position. 
+- Similarly, the preference of the reviewer assigned to the SCRIBE position for a proposal is less than the preference of the reviewer assigned to the REV1 position and the preference of the reviewer assigned to the REV1 position for a proposal is less than the preference of the reviewer assigned to the REV2 position.
 
 For the linear integer programming problem formulation of the problem, please refer to the following publication:
 
